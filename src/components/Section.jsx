@@ -1,13 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
 function Section({ title, children }) {
   return (
     <section>
-      {/* <h2>{title}</h2> */}
-      {/* //! Рендер за умовою: */}
       {title && <h2>{title}</h2>} 
-      {/* <p>{React.Children.count(children)}</p> //! сколько children */}
       {children}
     </section>
   );

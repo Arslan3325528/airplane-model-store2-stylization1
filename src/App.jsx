@@ -3,8 +3,8 @@ import './App.css';
 import Section from './components/Section';
 
 //? Paintings
-import PaintingList from './components/PaintingList';
-import paintings from './json/paintings.json';
+// import PaintingList from './components/PaintingList';
+// import paintings from './json/paintings.json';
 
 //? Planes
 import PlanesList from './components/PlanesList';

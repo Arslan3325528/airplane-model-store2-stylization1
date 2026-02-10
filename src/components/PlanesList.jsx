@@ -1,18 +1,6 @@
 import PropTypes from 'prop-types';
 import Planes from './Planes';
 
-//!💚-var.3 Для відображення локальних зображень з http://localhost:5173/airplane-model-store/ та https://arslan3325528.github.io/airplane-model-store/
-// import planes from '../json/planes.json';
-// import img0 from '../images/planes-actual/a-10.jpg';
-// import img1 from '../images/planes-actual/b-2-comp.jpg';
-// import img2 from '../images/planes-actual/f-22-comp.jpg';
-
-// const images = [img0, img1, img2];
-// for (let i = 0; i < planes.length; i++) {
-//     planes[i].url.actual = images[i];
-// };
-//!💚-var.3 ___________________________________________________________________________________________________________________________________________
-
 
 function PlanesList({ items }) {
     return (

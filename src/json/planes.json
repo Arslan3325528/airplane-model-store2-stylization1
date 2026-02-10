@@ -95,47 +95,47 @@
   {
     "id": "id-5",
     "url": {
-      "main": "https://upload.wikimedia.org/wikipedia/commons/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg",
-      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczMW9bQPJS-5H0JL5TtRZ7ZEpl1nxf8P1-KGsHff6BkWUFMO7vxLBrhlhQdbNDZQJl7W0lrUZtUf_RSSU6bNhQPTQ7W2qntlaabchF_RK2BZKKbygFUKP8KmlP6Q2yn8RCVQhmB0emkPoilDP5sRqre7=w944-h911-s-no-gm?authuser=0",
+      "main": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Sukhoi_Su-25SM_%C2%ABRoman_Filipov%C2%BB_05.jpg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczO8jD-mHi9beAi08EtchDq7UWaoJbXCMaGZ6OHulXsFEZLP-_IRMaEtDuFZu4c1rmU0TiF_DjlfQMOK-Ac6uhlgRe8qe5LYmE_2njF4NFyZ7WwyFbvb6KXHo5NxAZguxz83Q76r7Ebk0XHpCoFAOfFT=w1298-h935-s-no-gm?authuser=0",
       "actual": [
-        "/airplane-model-store2-stylization1/images/planes-actual/f-22-comp.jpg",
-        "/airplane-model-store2-stylization1/images/planes-actual/f-22-comp.jpg"
+        "/airplane-model-store2-stylization1/images/planes-actual/su-25rus-comp.jpg",
+        "/airplane-model-store2-stylization1/images/planes-actual/su-25м1-ukr-comp.jpg"
       ]
     },
     "name": {
       "brief": "SU-25",
-      "full": "Lockheed Martin F-22 «Raptor»",
-      "nickname": "Хижий птах («Raptor»)"
+      "full": "Су-25 Грач",
+      "nickname": "Грач, Лягушачья лапа («Frogfoot») - класифікація НАТО"
     },
     "info": {
-      "year": 2001,
-      "country": "США",
-      "type": "Багатоцільовий винищувач",
-      "price": "$143–180 млн",
-      "description": "Малопомітний багатоцільовий винищувач «п'ятого покоління», розроблений для боротьби з авіацією супротивника, прикриття військ та тилових об'єктів від ударів з повітря, протидії повітряній розвідці супротивника вдень та вночі, у простих та складних метеоумовах"
+      "year": 1975,
+      "country": "СРСР",
+      "type": "Штурмовик",
+      "price": "$11–12 млн",
+      "description": "Призначений для безпосередньої підтримки сухопутних військ за прямої видимості мети, а також знищення об'єктів із заданими координатами цілодобово в будь-яких метеоумовах"
     }
   },
   {
     "id": "id-6",
     "url": {
-      "main": "https://upload.wikimedia.org/wikipedia/commons/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg",
-      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczMW9bQPJS-5H0JL5TtRZ7ZEpl1nxf8P1-KGsHff6BkWUFMO7vxLBrhlhQdbNDZQJl7W0lrUZtUf_RSSU6bNhQPTQ7W2qntlaabchF_RK2BZKKbygFUKP8KmlP6Q2yn8RCVQhmB0emkPoilDP5sRqre7=w944-h911-s-no-gm?authuser=0",
+      "main": "https://upload.wikimedia.org/wikipedia/commons/9/95/Messerschmitt_Bf_109E_at_Thunder_Over_Michigan.jpg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczMV6TUjxMPveNkolytwkxSKtE6qC3Vo54X4yRohfYHZ_Zm6QpuklhxynEHY6vgcVvCYOmIiG9TzJ06qpdNgQWIjSFhcaPytrUOOR02DveqsK9N_jyqHsekbyOif_17x6Dj33Ymr_vN4-sMj1HHZ6oz8=w1364-h932-s-no-gm?authuser=0",
       "actual": [
-        "/airplane-model-store2-stylization1/images/planes-actual/f-22-comp.jpg",
-        "/airplane-model-store2-stylization1/images/planes-actual/f-22-comp.jpg"
+        "/airplane-model-store2-stylization1/images/planes-actual/bf-109-yellow-comp.jpg",
+        "/airplane-model-store2-stylization1/images/planes-actual/bf-109-yellow-comp.jpg"
       ]
     },
     "name": {
       "brief": "BF-109",
-      "full": "Lockheed Martin F-22 «Raptor»",
-      "nickname": "Хижий птах («Raptor»)"
+      "full": "Messerschmitt Bf 109,",
+      "nickname": "Мессершмитт («Ме-109»)"
     },
     "info": {
-      "year": 2001,
-      "country": "США",
-      "type": "Багатоцільовий винищувач",
-      "price": "$143–180 млн",
-      "description": "Малопомітний багатоцільовий винищувач «п'ятого покоління», розроблений для боротьби з авіацією супротивника, прикриття військ та тилових об'єктів від ударів з повітря, протидії повітряній розвідці супротивника вдень та вночі, у простих та складних метеоумовах"
+      "year": 1935,
+      "country": "Німеччина",
+      "type": "Фронтовий винищувач, винищувач-перехоплювач, винищувач-бомбардувальник, винищувач-розвідник, розвідник, навчально-тренувальний винищувач",
+      "price": "42900 рейхсмарок, $23000–27000",
+      "description": "Одномоторний поршневий винищувач-низькоплан, що складався на озброєнні «Люфтваффе» та ВПС різних країн майже 30 років і був одним із двох основних винищувачів «Люфтваффе», наймасовішим літаком Німеччини протягом усієї Другої світової війни, а також наймасовішим винищувачем в історії."
     }
   }
 ]
