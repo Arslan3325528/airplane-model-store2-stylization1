@@ -13,8 +13,8 @@ function PlanesList({ items }) {
                 marginLeft: 10,
                 padding: 10,
                 display: "grid",
-                gridTemplateColumns: "repeat(autoFit, minmax(240px, auto))",
-                gap: 24,
+                gridTemplateColumns: 'repeat(auto-fit, minmax(445px, 1fr))',
+                gap: 32,
                 outline: "1px solid red",
             }}
         >
