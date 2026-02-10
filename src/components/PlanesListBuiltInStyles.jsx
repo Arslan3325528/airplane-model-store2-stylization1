@@ -11,6 +11,7 @@ function PlanesList({ items }) {
         <ul
             style={{
                 marginLeft: 10,
+                marginRight: 10,
                 padding: 10,
                 display: "grid",
                 gridTemplateColumns: 'repeat(auto-fit, minmax(445px, 1fr))',
@@ -22,7 +23,7 @@ function PlanesList({ items }) {
                 <li
                     key={item.id}
                     style={{
-                        marginBttom: 50,
+                        // marginBttom: 50,
                         padding: 10,
                         outline: "1px solid grey",
                     }}
