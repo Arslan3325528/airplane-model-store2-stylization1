@@ -15,9 +15,9 @@ export default function App() {
   return (
     <>
       {/* //? Paintings */}
-      <Section title="Колекція картин">
+      {/* <Section title="Колекція картин">
         <PaintingList items={paintings} />
-      </Section >
+      </Section > */}
 
       {/* //? Planes */}
       <Section title="Колекція моделей літаків">
