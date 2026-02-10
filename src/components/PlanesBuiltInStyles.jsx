@@ -34,7 +34,7 @@ export default function Planes({
       >
         {nameBrief}
       </h3>
-      <img src={urlMain} alt={nameBrief} width="400" />
+      <img src={urlMain} alt={nameBrief} />
       <p>Повна назва: {nameFull}</p>
       <p>Тип: {type}</p>
       <p>Прізвисько: {nickname}</p>
@@ -43,7 +43,7 @@ export default function Planes({
       <p>Ціна: {price}</p>
       <p className="Card-planes-description">Опис: {description}</p>
       <p>Рекламна модель:</p>
-      <img src={urlPromotional} alt={nameBrief} width="300" />
+      <img src={urlPromotional} alt={nameBrief} />
       <p>Реальна модель:</p>
       {/* <img src={urlActual} alt={nameBrief} width="600" /> */}
       <div

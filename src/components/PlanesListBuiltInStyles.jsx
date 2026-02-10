@@ -4,8 +4,6 @@ import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі bu
 // import Planes from './Planes'; //! 
 
 
-
-
 function PlanesList({ items }) {
     return (
         <ul
@@ -23,7 +21,6 @@ function PlanesList({ items }) {
                 <li
                     key={item.id}
                     style={{
-                        // marginBttom: 50,
                         padding: 10,
                         outline: "1px solid grey",
                     }}
