@@ -50,7 +50,8 @@ export default function Planes({
         style={{
           display: "flex",
           alignItems: 'center',
-          justifyContent: "spaceEvenly",
+          gap: 10,
+          // justifyContent: "spaceEvenly",
           flexWrap: 'wrap',
           padding: "8px",
           borderRadius: 8,
@@ -58,7 +59,14 @@ export default function Planes({
         }}
       >
         {urlActual.map(item =>
-          <img src={item} alt={nameBrief} width="500" />
+          <img
+            src={item}
+            alt={nameBrief}
+            style={{
+              flexBasis: "calc((100% - 10px) / 2)",
+            }}
+            
+          />
         )}
       </div>
       <button type="button">Додати до кошику</button>
