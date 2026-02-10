@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import defaultImage from "./default.jpg"; //! Дефолтне зображення
 
-// import { useMemo } from "react"; //!💚❌-var.2 Для відображення локальних зображень на https://arslan3325528.github.io/airplane-model-store/
-
 
 export default function Planes({
   urlMain = defaultImage, //! Дефолтне зображення
@@ -18,12 +16,9 @@ export default function Planes({
   description
 })
 {
-  //!💚❌-var.2 Для відображення локальних зображень на https://arslan3325528.github.io/airplane-model-store/
-  // const actualImage = useMemo(() => {
-  //   return new URL(urlActual, import.meta.url).href;
-  // }, [urlActual]);
-  //!💚❌-var.2 ____________________________________________________________________________________________
-
+  function printlActualimages(urlActual) {
+    urlActual.map
+  }
   return (
     <>
       <h3>{nameBrief}</h3>
@@ -38,9 +33,10 @@ export default function Planes({
       <p>Рекламна модель:</p>
       <img src={urlPromotional} alt={nameBrief} width="300" />
       <p>Реальна модель:</p>
-      <img src={urlActual} alt={nameBrief} width="600" />
-      {/* //!💚❌-var.2 Для відображення локальних зображень на https://arslan3325528.github.io/airplane-model-store/ */}
-      {/* <img src={actualImage} alt={nameBrief} width="600" />  */}
+      {/* <img src={urlActual} alt={nameBrief} width="600" /> */}
+      {urlActual.map(item =>
+        <img src={item} alt={nameBrief} width="500" />
+      )}
       <br />
       <button type="button">Додати до кошику</button>
     </>
