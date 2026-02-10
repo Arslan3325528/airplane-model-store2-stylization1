@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import Planes from './PlanesWOSyle'; //! без стилізації
-// import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі built-in styles
+// import Planes from './PlanesWOSyle'; //! без стилізації
+import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі built-in styles
 // import Planes from './Planes'; //! 
 
 
@@ -9,12 +9,23 @@ import Planes from './PlanesWOSyle'; //! без стилізації
 function PlanesList({ items }) {
     return (
         <ul
-            // className="Card-planes-list"
+            style={{
+                marginLeft: 10,
+                padding: 10,
+                display: "grid",
+                gridTemplateColumns: "repeat(autoFit, minmax(240px, auto))",
+                gap: 24,
+                outline: "1px solid red",
+            }}
         >
             {items.map(item =>
                 <li
                     key={item.id}
-                    // className="Card-planes"
+                    style={{
+                        marginBttom: 50,
+                        padding: 10,
+                        outline: "1px solid grey",
+                    }}
                 >
                     <Planes
                         urlMain={item.url.main}

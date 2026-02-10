@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import Planes from './PlanesWOSyle'; //! без стилізації
-// import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі built-in styles
+// import Planes from './PlanesWOSyle'; //! без стилізації
+import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі built-in styles
 // import Planes from './Planes'; //! 
 
 
@@ -8,14 +8,9 @@ import Planes from './PlanesWOSyle'; //! без стилізації
 
 function PlanesList({ items }) {
     return (
-        <ul
-            // className="Card-planes-list"
-        >
+        <ul>
             {items.map(item =>
-                <li
-                    key={item.id}
-                    // className="Card-planes"
-                >
+                <li key={item.id}>
                     <Planes
                         urlMain={item.url.main}
                         urlPromotional={item.url.promotional}

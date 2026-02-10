@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 
 import Section from './components/Section';
 
@@ -7,8 +7,11 @@ import Section from './components/Section';
 // import paintings from './json/paintings.json';
 
 //? Planes
-import PlanesList from './components/PlanesList';
 import planes from './json/planes.json';
+// import PlanesList from './components/PlanesList';
+// import PlanesList from './components/PlanesListWOSyle';  //! без стилізації
+import PlanesList from './components/PlanesListBuiltInStyles'; //! вбудовані стилі built-in styles
+
 
 
 export default function App() {

@@ -46,10 +46,21 @@ export default function Planes({
       <img src={urlPromotional} alt={nameBrief} width="300" />
       <p>Реальна модель:</p>
       {/* <img src={urlActual} alt={nameBrief} width="600" /> */}
-      {urlActual.map(item =>
-        <img src={item} alt={nameBrief} width="500" />
-      )}
-      <br />
+      <div
+        style={{
+          display: "flex",
+          alignItems: 'center',
+          justifyContent: "spaceEvenly",
+          flexWrap: 'wrap',
+          padding: "8px",
+          borderRadius: 8,
+          backgroundColor: "gray",
+        }}
+      >
+        {urlActual.map(item =>
+          <img src={item} alt={nameBrief} width="500" />
+        )}
+      </div>
       <button type="button">Додати до кошику</button>
     </>
   );
