@@ -29,7 +29,7 @@ export default function Planes({
       <p>Країна виробник: {country}</p>
       <p>Рік випуску: {year}</p>
       <p>Ціна: {price}</p>
-      <p className="Card-planes-description">Опис: {description}</p>
+      <p>Опис: {description}</p>
       <p>Рекламна модель:</p>
       <img src={urlPromotional} alt={nameBrief} width="300" />
       <p>Реальна модель:</p>

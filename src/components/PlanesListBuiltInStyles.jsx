@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
-// import Planes from './PlanesWOSyle'; //! без стилізації
-import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі built-in styles
 // import Planes from './Planes'; //! 
+// import Planes from './PlanesWOSyle'; //! без стилізації
+import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі 
+
 
 
 function PlanesList({ items }) {
@@ -21,6 +22,8 @@ function PlanesList({ items }) {
                 <li
                     key={item.id}
                     style={{
+                        display: "grid",
+                        gap: 12,
                         padding: 10,
                         outline: "1px solid grey",
                     }}

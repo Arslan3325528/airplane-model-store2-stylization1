@@ -35,13 +35,13 @@ export default function Planes({
         {nameBrief}
       </h3>
       <img src={urlMain} alt={nameBrief} />
-      <p>Повна назва: {nameFull}</p>
-      <p>Тип: {type}</p>
-      <p>Прізвисько: {nickname}</p>
-      <p>Країна виробник: {country}</p>
-      <p>Рік випуску: {year}</p>
+      <p>Повна назва: <span></span>{nameFull}</p>
+      <p>Тип: <span></span>{type}</p>
+      <p>Прізвисько: <span></span>{nickname}</p>
+      <p>Країна виробник: <span></span>{country}</p>
+      <p>Рік випуску: <span></span>{year}</p>
       <p>Ціна: {price}</p>
-      <p className="Card-planes-description">Опис: {description}</p>
+      <p>Опис: <span></span>{description}</p>
       <p>Рекламна модель:</p>
       <img src={urlPromotional} alt={nameBrief} />
       <p>Реальна модель:</p>
@@ -49,9 +49,7 @@ export default function Planes({
       <div
         style={{
           display: "flex",
-          // alignItems: 'center',
           gap: 10,
-          // justifyContent: "spaceEvenly",
           flexWrap: 'wrap',
           padding: "8px",
           borderRadius: 8,
@@ -64,7 +62,6 @@ export default function Planes({
             alt={nameBrief}
             style={{
               maxWidth: "calc((100% - 10px) / 2)",
-              // flexBasis: "calc((100% - 20px) / 3)",
             }}
           />
         )}

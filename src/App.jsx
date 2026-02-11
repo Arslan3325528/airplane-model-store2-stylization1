@@ -1,6 +1,8 @@
 // import './App.css';
 
-import Section from './components/Section';
+// import Section from './components/Section';
+// import Section from './components/SectionWOSyle';  //! без стилізації
+import Section from './components/SectionBuiltInStyles'; //! вбудовані стилі 
 
 //? Paintings
 // import PaintingList from './components/PaintingList';
@@ -10,7 +12,7 @@ import Section from './components/Section';
 import planes from './json/planes.json';
 // import PlanesList from './components/PlanesList';
 // import PlanesList from './components/PlanesListWOSyle';  //! без стилізації
-import PlanesList from './components/PlanesListBuiltInStyles'; //! вбудовані стилі built-in styles
+import PlanesList from './components/PlanesListBuiltInStyles'; //! вбудовані стилі 
 
 
 
