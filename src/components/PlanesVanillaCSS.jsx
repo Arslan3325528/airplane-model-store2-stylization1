@@ -8,10 +8,10 @@ const imageTitles = {
 }
 
 //! Стилі для текстових полів
-const textField = {
-  fontSize: '18px',
-  fontWeight: 700,
-}
+// const textField = {
+//   fontSize: '18px',
+//   fontWeight: 700,
+// }
 
 //! Стилі для значень текстових полів
 const textFieldValue = {
@@ -40,6 +40,7 @@ export default function Planes({
   return (
     <>
       <h3
+        className="planeTitle"
         style={{
         marginBottom: 12,
         padding: "12px 16px",
@@ -53,22 +54,23 @@ export default function Planes({
         {nameBrief}
       </h3>
       <img src={urlMain} alt={nameBrief} />
-      <p style={textField}>Повна назва: <span style={textFieldValue}>{nameFull}</span></p>
-      <p style={textField}>Тип: <span style={textFieldValue}>{type}</span></p>
-      <p style={textField}>Прізвисько: <span style={textFieldValue}>{nickname}</span></p>
-      <p style={textField}>Країна виробник: <span style={textFieldValue}>{country}</span></p>
-      <p style={textField}>Рік випуску: <span style={textFieldValue}>{year}</span></p>
-      <p style={textField}>Ціна: <span style={textFieldValue}>{price}</span></p>
-      <p style={textField}>Опис: <span style={textFieldValue}>{description}</span></p>
+      <p className="textField">Повна назва: <span className="textFieldValue">{nameFull}</span></p>
+      <p className="textField">Тип: <span className="textFieldValue">{type}</span></p>
+      <p className="textField">Прізвисько: <span className="textFieldValue">{nickname}</span></p>
+      <p className="textField">Країна виробник: <span className="textFieldValue">{country}</span></p>
+      <p className="textField">Рік випуску: <span className="textFieldValue">{year}</span></p>
+      <p className="textField">Ціна: <span className="textFieldValue">{price}</span></p>
+      <p className="textField">Опис: <span className="textFieldValue">{description}</span></p>
       {/*//! заголовок зображень */}
       {/* <h4 style={{ textAlign: 'center', color: 'blue' }}>Рекламна модель:</h4> */}
-      <h4 style={imageTitles}>Рекламна модель:</h4>
+      <h4 className="imageTitles">Рекламна модель:</h4>
       <img src={urlPromotional} alt={nameBrief} />
       {/*//! заголовок зображень */}
       {/* <h4 style={{ textAlign: 'center', color: 'blue' }}>Реальна модель:</h4> */}
-      <h4 style={imageTitles}>Реальна модель:</h4>
+      <h4 className="imageTitles">Реальна модель:</h4>
       {/* <img src={urlActual} alt={nameBrief} width="600" /> */}
       <div
+        className="actualImageBox"
         style={{
           display: "flex",
           gap: 10,
@@ -83,6 +85,7 @@ export default function Planes({
             // key={item} //! поки що не унікальний
             src={item}
             alt={nameBrief}
+            className="actualImage"
             style={{
               maxWidth: "calc((100% - 10px) / 2)",
               borderRadius: 4,
@@ -92,6 +95,7 @@ export default function Planes({
       </div>
       <button
         type="button"
+        className="planeButton"
         style={{
           width: "70%",
           margin: "20px auto",
