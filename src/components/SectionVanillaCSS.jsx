@@ -5,7 +5,8 @@ function Section({ title, children }) {
     <section>
       {title
         &&
-        <h2 className="title"
+        <h2
+          className="title"
           // style={{
           //   marginBottom: 24,
           //   fontSize: 48,

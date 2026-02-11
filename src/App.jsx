@@ -13,8 +13,8 @@ import Section from './components/SectionVanillaCSS'; //! ванільний CSS
 import planes from './json/planes.json';
 // import PlanesList from './components/PlanesList';
 // import PlanesList from './components/PlanesListWOSyle';  //! без стилізації
-import PlanesList from './components/PlanesListBuiltInStyles'; //! вбудовані стилі 
-
+// import PlanesList from './components/PlanesListBuiltInStyles'; //! вбудовані стилі 
+import PlanesList from './components/PlanesListVanillaCSS'; //! ванільний CSS 
 
 
 export default function App() {
