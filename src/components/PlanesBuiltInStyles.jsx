@@ -80,6 +80,7 @@ export default function Planes({
       >
         {urlActual.map(item =>
           <img
+            // key={item} //! поки що не унікальний
             src={item}
             alt={nameBrief}
             style={{

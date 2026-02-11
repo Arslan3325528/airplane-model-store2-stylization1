@@ -3,15 +3,15 @@ import PropTypes from 'prop-types';
 // import Planes from './PlanesWOSyle'; //! без стилізації
 import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі
 
-// import { get } from '../utils';
+import { getBgColor } from '../utils/getBackgroundColor';
 
 //! Для визначення кольору фону картки в залежності від значення "year"
-function getBgColor(year) {
-    let bgColor = '#ffdb92';
-    if (year > 1945) bgColor = '#d2fdbd';
-    if (year > 1999) bgColor = '#d6f1ff';
-    return bgColor;
-};
+// function getBgColor(year) {
+//     let bgColor = '#ffdb92';
+//     if (year > 1945) bgColor = '#d2fdbd';
+//     if (year > 1999) bgColor = '#d6f1ff';
+//     return bgColor;
+// };
 
 function PlanesList({ items }) {
     return (
