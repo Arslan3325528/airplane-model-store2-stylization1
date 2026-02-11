@@ -48,22 +48,50 @@
       color: blue;
 }
 
-.textField {
+/* .textField {
+    fontSize: '18px',
+        fontWeight: 700,
+} */
 
-}
+/* .textFieldValue {
+    fontWeight: 400,
+        fontStyle: "italic",
+} */
 
-.imageTitles {
+/* .imageTitles {
+    textAlign: 'center',
+        color: 'blue'
+} */
 
-}
 
-textFieldValue {
+/* . actualImageBox {
+  display: "flex",
+      gap: 10,
+      flexWrap: 'wrap',
+      padding: "8px",
+      borderRadius: 8,
+      backgroundColor: "gray",
+} */
 
-}
+/* . actualImage {
+  maxWidth: "calc((100% - 10px) / 2)",
+      borderRadius: 4,
+} */
 
-. actualImageBox {
-
-}
-
-. actualImage {
-
-}
+/* .planeButton {
+  width: "70%",
+      margin: "20px auto",
+      padding: "16px 32px",
+      display: "inline-block",
+      alignItems: "center",
+      fontFmily: 'Franklin Gothic Medium, Arial Narrow',
+      fontWeight: 700,
+      fontSize: "1.5rem",
+      border: "none",
+      borderRadius: "12px",
+      color: "#ffffff",
+      cursor: "pointer",
+      backgroundColor: "#008080",
+      textShadow: "1px 1px 2px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.1)",
+      boxShadow: "inset 0 0 16px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.9)",
+} */

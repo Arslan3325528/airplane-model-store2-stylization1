@@ -1,11 +1,6 @@
 import PropTypes from 'prop-types';
 import defaultImage from "./default.jpg"; //! Дефолтне зображення
 
-//! Стилі для заголовків зображень
-const imageTitles = {
-  textAlign: 'center',
-  color: 'blue'
-}
 
 //! Стилі для текстових полів
 const textField = {
@@ -17,6 +12,12 @@ const textField = {
 const textFieldValue = {
   fontWeight: 400,
   fontStyle: "italic",
+}
+
+//! Стилі для заголовків зображень
+const imageTitles = {
+  textAlign: 'center',
+  color: 'blue'
 }
 
 
