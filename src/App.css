@@ -1,5 +1,4 @@
 /*! Ванільний CSS (Vanilla CSS) */
-
 /*? Section.jsx */
 .title {
   margin-bottom: 24px;
@@ -7,6 +6,7 @@
   text-align: center;
   color: darkred;
 }
+
 
 /*? PlanesList.jsx */
 .planesList {
@@ -35,3 +35,6 @@
 .planesItem.last.current {
   background-color: #d6f1ff;
 }
+
+
+/*? Planes.jsx */
