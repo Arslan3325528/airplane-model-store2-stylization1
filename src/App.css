@@ -32,6 +32,6 @@
   background-color: #d2fdbd;
 }
 /** backgroundColor: '#d6f1ff', // "year" від 2000 - current */
-.planesItem.current {
+.planesItem.last.current {
   background-color: #d6f1ff;
 }
