@@ -1,8 +1,9 @@
-// import './App.css';
+import './App.css'; //! Ванільний CSS (Vanilla CSS)
 
 // import Section from './components/Section';
 // import Section from './components/SectionWOSyle';  //! без стилізації
-import Section from './components/SectionBuiltInStyles'; //! вбудовані стилі 
+// import Section from './components/SectionBuiltInStyles'; //! вбудовані стилі
+import Section from './components/SectionVanillaCSS'; //! ванільний CSS 
 
 //? Paintings
 // import PaintingList from './components/PaintingList';
@@ -25,7 +26,7 @@ export default function App() {
       </Section > */}
 
       {/* //? Planes */}
-      <Section title="Колекція моделей літаків">
+      <Section title="Магазин моделей літаків">
         <PlanesList items={planes} />
       </Section >
     </>
