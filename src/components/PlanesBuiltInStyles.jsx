@@ -92,21 +92,21 @@ export default function Planes({
       <button
         type="button"
         style={{
-          height: 100,
-          margin: "50px 0",
-          padding: "0 30px",
+          width: "70%",
+          margin: "20px auto",
+          padding: "16px 32px",
           display: "inline-block",
           alignItems: "center",
           fontFmily: 'Franklin Gothic Medium, Arial Narrow',
           fontWeight: 700,
-          fontSize: "2rem",
+          fontSize: "1.5rem",
           border: "none",
           borderRadius: "12px",
           color: "#ffffff",
           cursor: "pointer",
           backgroundColor: "#008080",
           textShadow: "1px 1px 2px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.1)",
-          boxShadow: "inset 0 0 16px 8px rgba(0, 0, 0, 0.3), 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)"
+          boxShadow: "inset 0 0 16px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.9)",
         }}
       >
         Додати до кошику
