@@ -12,7 +12,9 @@ function Section({ title, children }) {
             textAlign: 'center',
             color: "darkred",
           }}
-        >{title}</h2>} 
+        >
+          {title}
+        </h2>} 
       {children}
     </section>
   );
