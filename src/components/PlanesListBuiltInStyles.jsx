@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 // import Planes from './PlanesWOSyle'; //! без стилізації
 import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі
 
+// import { get } from '../utils';
+
 //! Для визначення кольору фону картки в залежності від значення "year"
 function getBgColor(year) {
     let bgColor = '#ffdb92';
