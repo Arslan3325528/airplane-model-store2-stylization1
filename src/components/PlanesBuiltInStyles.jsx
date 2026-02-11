@@ -49,7 +49,7 @@ export default function Planes({
       <div
         style={{
           display: "flex",
-          alignItems: 'center',
+          // alignItems: 'center',
           gap: 10,
           // justifyContent: "spaceEvenly",
           flexWrap: 'wrap',
@@ -63,9 +63,9 @@ export default function Planes({
             src={item}
             alt={nameBrief}
             style={{
-              flexBasis: "calc((100% - 10px) / 2)",
+              maxWidth: "calc((100% - 10px) / 2)",
+              // flexBasis: "calc((100% - 20px) / 3)",
             }}
-            
           />
         )}
       </div>

@@ -4,8 +4,6 @@ import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі bu
 // import Planes from './Planes'; //! 
 
 
-
-
 function PlanesList({ items }) {
     return (
         <ul>
