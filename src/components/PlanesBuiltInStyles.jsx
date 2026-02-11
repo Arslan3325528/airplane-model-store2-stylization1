@@ -102,7 +102,6 @@ export default function Planes({
           fontFmily: 'Franklin Gothic Medium, Arial Narrow',
           fontWeight: 700,
           fontSize: "1.5rem",
-          border: "none",
           borderRadius: "12px",
           color: "#ffffff",
           cursor: "pointer",

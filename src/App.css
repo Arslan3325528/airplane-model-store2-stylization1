@@ -19,18 +19,20 @@
   outline: 1px solid red;
 }
 
-/** backgroundColor: '#ffdb92', // "year" до 1946 */ 
+/** backgroundColor: '#ffdb92', // "year" до 1946 */
 .planesItem {
   display: grid;
-      gap: 12px;
-      padding: 10px;
-      background-color: #ffdb92;
-      outline: 1px solid grey;
+  gap: 12px;
+  padding: 10px;
+  background-color: #ffdb92;
+  outline: 1px solid grey;
 }
+
 /** backgroundColor: '#d2fdbd', // "year"  1946 - 1999 - last */
 .planesItem.last {
   background-color: #d2fdbd;
 }
+
 /** backgroundColor: '#d6f1ff', // "year" від 2000 - current */
 .planesItem.last.current {
   background-color: #d6f1ff;
@@ -40,58 +42,56 @@
 /*? Planes.jsx */
 .planeTitle {
   margin-bottom: 12px;
-      padding: 12px 16px;
-      font-size: 32px;
-      text-align: center;
-      border-radius: 8px;
-      background-color: yellow;
-      color: blue;
+  padding: 12px 16px;
+  font-size: 32px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: yellow;
+  color: blue;
 }
 
-/* .textField {
-    fontSize: '18px',
-        fontWeight: 700,
-} */
+.textField {
+  font-size: 18px;
+  font-weight: 700;
+}
 
-/* .textFieldValue {
-    fontWeight: 400,
-        fontStyle: "italic",
-} */
+.textFieldValue {
+  font-weight: 400;
+  font-style: italic;
+}
 
-/* .imageTitles {
-    textAlign: 'center',
-        color: 'blue'
-} */
+.imageTitles {
+  text-align: center;
+  color: blue;
+}
 
+.actualImageBox {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: gray;
+}
 
-/* . actualImageBox {
-  display: "flex",
-      gap: 10,
-      flexWrap: 'wrap',
-      padding: "8px",
-      borderRadius: 8,
-      backgroundColor: "gray",
-} */
+.actualImage {
+  max-width: calc((100% - 10px) / 2);
+  border-radius: 4px;
+}
 
-/* . actualImage {
-  maxWidth: "calc((100% - 10px) / 2)",
-      borderRadius: 4,
-} */
-
-/* .planeButton {
-  width: "70%",
-      margin: "20px auto",
-      padding: "16px 32px",
-      display: "inline-block",
-      alignItems: "center",
-      fontFmily: 'Franklin Gothic Medium, Arial Narrow',
-      fontWeight: 700,
-      fontSize: "1.5rem",
-      border: "none",
-      borderRadius: "12px",
-      color: "#ffffff",
-      cursor: "pointer",
-      backgroundColor: "#008080",
-      textShadow: "1px 1px 2px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.1)",
-      boxShadow: "inset 0 0 16px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.9)",
-} */
+.planeButton {
+  width: 70%;
+      margin: 20px auto;
+      padding: 16px 32px;
+      display: inline-block;
+      align-items: center;
+      font-family: Franklin Gothic Medium, Arial Narrow;
+      font-weight: 700;
+      font-size: 1.5rem;
+      border-radius: 12px;
+      color: #ffffff;
+      cursor: pointer;
+      background-color: #008080;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: inset 0 0 16px 8px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.9);
+}
