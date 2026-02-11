@@ -18,7 +18,8 @@ import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі
 function getBgColorVanillaCSS(year) {
     const classNames = ["planesList"];
     if (year > 1945) classNames.push("last");
-    if (year > 1999) classNames.current("last");
+    if (year > 1999) classNames.push("last");
+    console.log("classNames:", classNames);
     return classNames;
 };
 
@@ -39,8 +40,8 @@ function PlanesList({ items }) {
         >
             {items.map(item => 
                 <li
-                    className="planesItem"
-                    // className={getBgColorVanillaCSS(item.info.year)}
+                    // className="planesItem"
+                    className={getBgColorVanillaCSS(item.info.year).join(" ")}
                     key={item.id}
                     // style={{
                     //     display: "grid",
