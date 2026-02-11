@@ -15,12 +15,13 @@ import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі
 // };
 
 //! Для визначення кольору фону картки в залежності від значення "year" - ванільний CSS
-// function getBgColorVanillaCSS (year) {
-//     let bgColor = '#ffdb92';
-//     if (year > 1945) bgColor = '#d2fdbd';
-//     if (year > 1999) bgColor = '#d6f1ff';
-//     return bgColor;
-// };
+function getBgColorVanillaCSS(year) {
+    const classNames = ["planesList"];
+    if (year > 1945) classNames.push("last");
+    if (year > 1999) classNames.current("last");
+    return classNames;
+};
+
 
 function PlanesList({ items }) {
     return (
@@ -39,6 +40,7 @@ function PlanesList({ items }) {
             {items.map(item => 
                 <li
                     className="planesItem"
+                    // className={getBgColorVanillaCSS(item.info.year)}
                     key={item.id}
                     // style={{
                     //     display: "grid",
