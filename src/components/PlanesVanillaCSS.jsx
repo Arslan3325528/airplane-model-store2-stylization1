@@ -65,7 +65,7 @@ export default function Planes({
       {/*//! заголовок зображень */}
       {/* <h4 style={imageTitles}>Рекламна модель:</h4> */}
       <h4 className="imageTitles">Рекламна модель:</h4>
-      <img src={urlPromotional} alt={nameBrief} />
+      <img src={urlPromotional} alt={nameBrief} className="promotionalImage" />
       {/*//! заголовок зображень */}
       {/* <h4 style={imageTitles}>Реальна модель:</h4> */}
       <h4 className="imageTitles">Реальна модель:</h4>
