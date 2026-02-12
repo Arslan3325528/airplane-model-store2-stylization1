@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
-// import Planes from './Planes'; //! 
+
 // import Planes from './PlanesWOSyle'; //! без стилізації
 import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі
 
-import { getBgColor } from '../utils/getBackgroundColor';
+import { getBgColorBuiltInStyles } from '../utils/getBackgroundColor';
+
 
 //! Для визначення кольору фону картки в залежності від значення "year"
-// function getBgColor(year) {
+// function getBgColorBuiltInStyles(year) {
 //     let bgColor = '#ffdb92';
 //     if (year > 1945) bgColor = '#d2fdbd';
 //     if (year > 1999) bgColor = '#d6f1ff';
@@ -36,7 +37,7 @@ function PlanesList({ items }) {
                         // backgroundColor: '#ffdb92', // "year" до 1946
                         // backgroundColor: '#d2fdbd', // "year"  1946 - 1999
                         // backgroundColor: '#d6f1ff', // "year" від 2000
-                        backgroundColor: getBgColor(item.info.year),
+                        backgroundColor: getBgColorBuiltInStyles(item.info.year),
                         outline: "1px solid grey",
                     }}
                 >

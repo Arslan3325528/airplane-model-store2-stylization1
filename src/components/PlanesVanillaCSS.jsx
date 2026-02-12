@@ -55,7 +55,7 @@ export default function Planes({
         {nameBrief}
       </h3>
       <img src={urlMain} alt={nameBrief} />
-      <p className="textField">Повна назва: <span className="textFieldValue">{nameFull}</span></p>
+      <p className="textField">Повна назва: <span className="textFieldValue boldStyle">{nameFull}</span></p>
       <p className="textField">Тип: <span className="textFieldValue">{type}</span></p>
       <p className="textField">Прізвисько: <span className="textFieldValue">{nickname}</span></p>
       <p className="textField">Країна виробник: <span className="textFieldValue">{country}</span></p>
@@ -63,13 +63,12 @@ export default function Planes({
       <p className="textField">Ціна: <span className="textFieldValue">{price}</span></p>
       <p className="textField">Опис: <span className="textFieldValue">{description}</span></p>
       {/*//! заголовок зображень */}
-      {/* <h4 style={{ textAlign: 'center', color: 'blue' }}>Рекламна модель:</h4> */}
+      {/* <h4 style={imageTitles}>Рекламна модель:</h4> */}
       <h4 className="imageTitles">Рекламна модель:</h4>
       <img src={urlPromotional} alt={nameBrief} />
       {/*//! заголовок зображень */}
-      {/* <h4 style={{ textAlign: 'center', color: 'blue' }}>Реальна модель:</h4> */}
+      {/* <h4 style={imageTitles}>Реальна модель:</h4> */}
       <h4 className="imageTitles">Реальна модель:</h4>
-      {/* <img src={urlActual} alt={nameBrief} width="600" /> */}
       <div
         className="actualImageBox"
         // style={{

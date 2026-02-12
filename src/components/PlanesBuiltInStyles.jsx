@@ -68,7 +68,6 @@ export default function Planes({
       {/*//! заголовок зображень */}
       {/* <h4 style={{ textAlign: 'center', color: 'blue' }}>Реальна модель:</h4> */}
       <h4 style={imageTitles}>Реальна модель:</h4>
-      {/* <img src={urlActual} alt={nameBrief} width="600" /> */}
       <div
         style={{
           display: "flex",

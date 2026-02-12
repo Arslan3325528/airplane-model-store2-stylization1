@@ -38,6 +38,11 @@
   background-color: #d6f1ff;
 }
 
+/*todo^ додатково: */
+.textFieldValue.boldStyle {
+  color: #0b5500;
+  font-weight: 700;
+}
 
 /*? Planes.jsx */
 .planeTitle {

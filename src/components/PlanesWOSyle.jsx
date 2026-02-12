@@ -34,6 +34,7 @@ export default function Planes({
       <img src={urlPromotional} alt={nameBrief} width="300" />
       <p>Реальна модель:</p>
       {/* <img src={urlActual} alt={nameBrief} width="600" /> */}
+      {/*//! Зображення рендеряться з масиву */}
       {urlActual.map(item =>
         <img src={item} alt={nameBrief} width="500" />
       )}
