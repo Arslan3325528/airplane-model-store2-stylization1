@@ -106,10 +106,10 @@
       "main": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Sukhoi_Su-25SM_%C2%ABRoman_Filipov%C2%BB_05.jpg",
       "promotional": "https://lh3.googleusercontent.com/pw/AP1GczO8jD-mHi9beAi08EtchDq7UWaoJbXCMaGZ6OHulXsFEZLP-_IRMaEtDuFZu4c1rmU0TiF_DjlfQMOK-Ac6uhlgRe8qe5LYmE_2njF4NFyZ7WwyFbvb6KXHo5NxAZguxz83Q76r7Ebk0XHpCoFAOfFT=w1298-h935-s-no-gm?authuser=0",
       "actual": [
-        "/airplane-model-store2-stylization1/images/planes-actual/su-25rus-comp.jpg",
-        "/airplane-model-store2-stylization1/images/planes-actual/su-25м1-ukr-comp.jpg",
-        "/airplane-model-store2-stylization1/images/planes-actual/su-25rus-comp.jpg",
-        "/airplane-model-store2-stylization1/images/planes-actual/su-25м1-ukr-comp.jpg"
+        "/airplane-model-store2-stylization1/images/planes-actual/su-25rus-comp-1.jpg",
+        "/airplane-model-store2-stylization1/images/planes-actual/su-25ukr-comp-3.jpg",
+        "/airplane-model-store2-stylization1/images/planes-actual/su-25ukr-comp-4.jpg",
+        "/airplane-model-store2-stylization1/images/planes-actual/su-25ukr-comp-5.jpg"
       ]
     },
     "name": {
@@ -139,7 +139,7 @@
     },
     "name": {
       "brief": "BF-109",
-      "full": "Messerschmitt Bf 109,",
+      "full": "Messerschmitt Bf 109",
       "nickname": "Мессершмітт («Ме-109»)"
     },
     "info": {
@@ -147,7 +147,32 @@
       "country": "Німеччина",
       "type": "Фронтовий винищувач, винищувач-перехоплювач, винищувач-бомбардувальник, винищувач-розвідник, розвідник, навчально-тренувальний винищувач",
       "price": "42900 рейхсмарок, $23000–27000",
-      "description": "Одномоторний поршневий винищувач-низькоплан, що складався на озброєнні «Люфтваффе» та ВПС різних країн майже 30 років і був одним із двох основних винищувачів «Люфтваффе», наймасовішим літаком Німеччини протягом усієї Другої світової війни, а також наймасовішим винищувачем в історії."
+      "description": "Одномоторний поршневий винищувач-низькоплан, що складався на озброєнні «Люфтваффе» та ВПС різних країн майже 30 років і був одним із двох основних винищувачів «Люфтваффе», наймасовішим літаком Німеччини протягом усієї Другої світової війни, а також наймасовішим винищувачем в історії"
+    }
+  },
+  {
+    "id": "id-7",
+    "url": {
+      "main": "https://upload.wikimedia.org/wikipedia/commons/6/66/Vought_F4U_Corsair_%28USMC%29.jpg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczMV6TUjxMPveNkolytwkxSKtE6qC3Vo54X4yRohfYHZ_Zm6QpuklhxynEHY6vgcVvCYOmIiG9TzJ06qpdNgQWIjSFhcaPytrUOOR02DveqsK9N_jyqHsekbyOif_17x6Dj33Ymr_vN4-sMj1HHZ6oz8=w1364-h932-s-no-gm?authuser=0",
+      "actual": [
+        "/airplane-model-store2-stylization1/images/planes-actual/f4u-comp-1.jpg",
+        "/airplane-model-store2-stylization1/images/planes-actual/f4u-comp-2.jpg",
+        "/airplane-model-store2-stylization1/images/planes-actual/f4u-comp-3.jpg",
+        "/airplane-model-store2-stylization1/images/planes-actual/f4u-comp-4.jpg"
+      ]
+    },
+    "name": {
+      "brief": "F4U",
+      "full": "Chance Vought F4U Corsair",
+      "nickname": "Корсар («Corsair»)"
+    },
+    "info": {
+      "year": 1940,
+      "country": "США",
+      "type": "Палубний винищувач-бомбардувальник",
+      "price": "20.2 мільйони фунтів стерлінгів",
+      "description": "Винищувач відмінно зарекомендував себе в ході бойових дій, перебував на озброєнні американської палубної авіації, в морській піхоті, а також у флотах Великої Британії, Нової Зеландії, Франції та інших країнах світу. Деякі японські пілоти вважали його найпотужнішим винищувачем Другої світової війни, а експерти американських ВМС підрахували співвідношення бойових втрат у повітряних боях за участю «Корсарів», як 11:1 на користь останнього"
     }
   }
 ]

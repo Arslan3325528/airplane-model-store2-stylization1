@@ -12,7 +12,7 @@ export default function Planes({
   year,
   country,
   type,
-  price,
+  price = "немає інформації",
   description
 })
 {
