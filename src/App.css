@@ -33,18 +33,25 @@
   background-color: #d2fdbd;
 }
 
+
 /** backgroundColor: '#d6f1ff', // "year" від 2000 - current */
-.planesItem.last.current {
+/* todo: var.1 */
+/* .planesItem.last.current {
+  background-color: #d6f1ff;
+} */
+/* todo: var.1 */
+.planesItem.current {
   background-color: #d6f1ff;
 }
 
-/*todo^ додатково: */
+/*todo: додатково: */
 .textFieldValue.boldStyle {
   font-family: 'Trebuchet MS', Arial, sans-serif;
   font-size: 1.1em;
   color: #0b5500;
   font-weight: 700;
 }
+
 
 /*? Planes.jsx */
 .planeTitle {

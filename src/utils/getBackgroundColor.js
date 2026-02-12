@@ -6,10 +6,19 @@ export function getBgColorBuiltInStyles(year) {
     return bgColor;
 };
 
+//todo: var.1
+// export function getBgColorVanillaCSS(year) {
+//     const classNames = ["planesItem"];
+//     if (year > 1945) classNames.push("last");
+//     if (year > 1999) classNames.push("current");
+//     console.log("classNames:", classNames); //!
+//     return classNames;
+// };
+
+//todo: var.2
 export function getBgColorVanillaCSS(year) {
     const classNames = ["planesItem"];
-    if (year > 1945) classNames.push("last");
-    if (year > 1999) classNames.push("current");
-    console.log("classNames:", classNames); //!
+    if (year < 1946) return classNames;
+    year > 1945 && year < 2000 ? classNames.push("last") : classNames.push("current")
     return classNames;
 };
