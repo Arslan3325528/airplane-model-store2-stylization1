@@ -41,7 +41,9 @@ function PlanesList({ items }) {
             {items.map(item => 
                 <li
                     // className="planesItem"
-                    className={getBgColorVanillaCSS(item.info.year).join(" ")}
+                    // className={getBgColorVanillaCSS(item.info.year).join(" ")}
+                    //todo: var.1.1 та var.2.1 - використання бібліотеки clsx
+                    className={getBgColorVanillaCSS(item.info.year)} 
                     key={item.id}
                     // style={{
                     //     display: "grid",

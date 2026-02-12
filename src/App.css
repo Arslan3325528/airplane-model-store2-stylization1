@@ -35,11 +35,11 @@
 
 
 /** backgroundColor: '#d6f1ff', // "year" від 2000 - current */
-/* todo: var.1 */
+/* todo: var.1  та var.1.1 */
 /* .planesItem.last.current {
   background-color: #d6f1ff;
 } */
-/* todo: var.1 */
+/* todo: var.2  та var.2.1 */
 .planesItem.current {
   background-color: #d6f1ff;
 }

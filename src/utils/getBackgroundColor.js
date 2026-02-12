@@ -1,4 +1,6 @@
 //! Для визначення кольору фону картки в залежності від значення "year"
+import clsx from "clsx";
+
 export function getBgColorBuiltInStyles(year) {
     let bgColor = '#ffdb92';
     if (year > 1945) bgColor = '#d2fdbd';
@@ -15,10 +17,37 @@ export function getBgColorBuiltInStyles(year) {
 //     return classNames;
 // };
 
+//todo: var.1.1 - використання бібліотеки clsx
+// export function getBgColorVanillaCSS(year) {
+//     const classNames = clsx(
+//         "planesItem",
+//         year > 1945 && "last",
+//         year > 1999 && "current",
+//     );
+//     console.log("classNames:", classNames); //!
+//     return classNames;
+// };
+
 //todo: var.2
+// export function getBgColorVanillaCSS(year) {
+//     const classNames = ["planesItem"];
+//     if (year < 1946) return classNames;
+//     year > 1945 && year < 2000 ? classNames.push("last") : classNames.push("current")
+//     return classNames;
+// };
+
+//todo: var.2.1 - використання бібліотеки clsx
 export function getBgColorVanillaCSS(year) {
-    const classNames = ["planesItem"];
-    if (year < 1946) return classNames;
-    year > 1945 && year < 2000 ? classNames.push("last") : classNames.push("current")
+    let classNames = "";
+    if (year < 1946) return classNames = "planesItem";
+    classNames = clsx(
+        "planesItem",
+        year > 1945 && year < 2000 ? "last" : "current"
+    );
+    console.log("classNames:", classNames); //!
     return classNames;
 };
+
+
+
+
