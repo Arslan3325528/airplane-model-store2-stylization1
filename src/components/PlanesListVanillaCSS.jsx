@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
- 
-// import Planes from './PlanesWOSyle'; //! без стилізації
+
+// import Planes from './PlanesWOStyle'; //! без стилізації
 // import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі
 import Planes from './PlanesVanillaCSS'; //! ванільний CSS
 
+//! Для визначення кольору фону картки в залежності від значення "year"
 import { getBgColorBuiltInStyles, getBgColorVanillaCSS } from '../utils/getBackgroundColor'; //! вбудовані стилі + ванільний CSS
-
 
 //! Для визначення кольору фону картки в залежності від значення "year" - вбудовані стилі
 // function getBgColorBuiltInStyles(year) {
@@ -23,6 +23,7 @@ import { getBgColorBuiltInStyles, getBgColorVanillaCSS } from '../utils/getBackg
 //     console.log("classNames:", classNames); //!
 //     return classNames;
 // };
+
 
 function PlanesList({ items }) {
     return (

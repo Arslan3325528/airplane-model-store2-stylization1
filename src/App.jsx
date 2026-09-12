@@ -1,17 +1,17 @@
-import './App.css'; //! Ванільний CSS (Vanilla CSS)
+import './App.css'; //! Ванільний CSS (Vanilla CSS) - 
 
-// import Section from './components/SectionWOSyle';  //! без стилізації
+// import Section from './components/SectionWOStyle';  //! без стилізації
 // import Section from './components/SectionBuiltInStyles'; //! вбудовані стилі
-import Section from './components/SectionVanillaCSS'; //! ванільний CSS 
+import Section from './components/SectionVanillaCSS'; //! ванільний CSS
 
 //? Paintings
-// import PaintingList from './components/PaintingList';
 // import paintings from './json/paintings.json';
+// import PaintingList from './components/PaintingList';
 
 //? Planes
 import planes from './json/planes.json';
 
-// import PlanesList from './components/PlanesListWOSyle';  //! без стилізації
+// import PlanesList from './components/PlanesListWOStyle';  //! без стилізації
 // import PlanesList from './components/PlanesListBuiltInStyles'; //! вбудовані стилі 
 import PlanesList from './components/PlanesListVanillaCSS'; //! ванільний CSS 
 

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Planes from './PlanesWOSyle'; //! без стилізації
+import Planes from './PlanesWOStyle'; //! без стилізації
 // import Planes from './PlanesBuiltInStyles'; //! вбудовані стилі built-in styles
 // import Planes from './Planes'; //! 
 
